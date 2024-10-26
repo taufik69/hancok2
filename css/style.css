@@ -13,9 +13,41 @@ a{
     display: inline-block;
 }
 ul,ol , li{
+    display: inline-block;
     list-style: none;
 }
 html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+nav{
+    background-color: rgb(0, 0, 0);
+}
+.navArea{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.navAreaLeft__menu{
+    display: flex;
+    align-items: center;
+   margin-bottom: 0;
+}
+.navAreaLeft__menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px ;
+    position: relative;
+}
+
+.navAreaRight{
+    display: flex;
+    align-items: center;
+}
+.navAreaRight a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px ;
+    align-content: center;
+}
