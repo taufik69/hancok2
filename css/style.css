@@ -1,3 +1,9 @@
+/* ================================== google fonts cdn link ================ */ 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ================================== google fonts cdn link ================ */ 
+
+
+
 /*  ============= common css ============ */
 *{
     margin: 0;
@@ -66,3 +72,29 @@ nav{
     margin: 0 10px ;
     align-content: center;
 }
+
+:root{
+    --primary_bg_color:#191919;
+    --primary_font_color:#FFFFFF;
+    --pink_color:#FF4655;
+}
+/*  ============= common css ============ */
+/*  ============= PopularGamesPart css ============ */
+.PopularGamesPart{
+    padding: 115px 0;
+    background-color: var(--primary_bg_color);
+}
+
+.PopularGamesPart__headerTitle{
+    color: var(--primary_font_color);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    font-family: "Barlow Condensed", sans-serif;
+    position: absolute;
+    right: 0;
+    max-width: 398px;
+    text-align-last:right ;
+    
+}
+/*  ============= PopularGamesPart css ============ */
