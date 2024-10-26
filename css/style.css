@@ -19,3 +19,83 @@ html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+
+
+/* ************** banner ***************/
+#BannerPart {
+  padding: 220px 0 103px 0;
+  background: url(./../images/banner/banner.png) no-repeat right;
+  background-size: cover;
+  width: 100%;
+}
+
+.banner__subtitle {
+  font-size: 27px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.banner__title {
+  font-size: 60px;
+  font-family:"Oswald", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.banner__title::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 19%;
+  background-color: white;
+}
+
+.banner__summary {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  line-height: 24px;
+  max-width: 521px;
+  margin: 5px 0 48px 0;
+  font-family: "Oswald", sans-serif;;
+}
+
+.banner__button {
+  padding: 13px 24px;
+  background-color: white;
+  border: none;
+  font-weight: 400;
+  transition: all linear 0.2s;
+}
+
+.banner__button i {
+  margin-left: 7px;
+  vertical-align: middle;
+}
+
+.banner__button:hover {
+  background-color: rgb(228, 82, 82);
+  color: white
+}
+
+.social_icon {
+  margin-top: 301px;
+  display: flex;
+  column-gap: 20px;
+  font-size: 30px;
+}
+
+.social_icon a {
+  color: white;
+}
+
+.social_icon a:hover {
+  color: white;
+  transform: translateY(25%);
+}
+
+/************** banner ***************/
