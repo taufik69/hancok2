@@ -58,5 +58,10 @@ html{
     background-color: #121212;
     color: #FFFFFF;
     margin-top: 9px;
+    transition: ease-in-out 0.3s;
+}
+
+.browseBtn:hover{
+    background-color: #FF4655;
 }
 /* =============== favourite Css ========== */
