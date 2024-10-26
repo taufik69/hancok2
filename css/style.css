@@ -19,3 +19,23 @@ html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+/* Favourite Games Image */
+.favouriteGameImg{
+    max-width: 426px;
+    width: 100%;
+}
+.gamesImages1{
+    left: -87px;
+
+}
+.gamesImages2{
+    right: -87px;
+}   
+.gamesImages3{
+    left: -50px;
+}   
+.gamesImages4{
+    right: -50px;
+}   
+
+/* Favourite Games Image */
