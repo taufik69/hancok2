@@ -25,6 +25,12 @@ ul,ol , li{
 html{
     scroll-behavior: smooth;
 }
+
+:root{
+    --primary_bg_color:#191919;
+    --primary_font_color:#FFFFFF;
+    --pink_color:#FF4655;
+}
 /*  ============= common css ============ */
 
 #headerPart{
@@ -73,11 +79,7 @@ nav{
     align-content: center;
 }
 
-:root{
-    --primary_bg_color:#191919;
-    --primary_font_color:#FFFFFF;
-    --pink_color:#FF4655;
-}
+
 /*  ============= common css ============ */
 /*  ============= PopularGamesPart css ============ */
 .PopularGamesPart{
@@ -86,15 +88,7 @@ nav{
 }
 
 .PopularGamesPart__headerTitle{
-    color: var(--primary_font_color);
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 46px;
-    font-family: "Barlow Condensed", sans-serif;
-    position: absolute;
-    right: 0;
-    max-width: 398px;
-    text-align-last:right ;
+color: white;
     
 }
 /*  ============= PopularGamesPart css ============ */
