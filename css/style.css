@@ -19,3 +19,44 @@ html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+
+/* =============== favourite Css ========== */
+#favouritePart{
+    padding: 44px 0 40px 0;
+    background-color: #212121;
+}
+
+.favouriteLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: flex-start;
+}
+
+.favouriteLeft__header{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF4655;
+}
+
+.favouriteLeft__title{
+    font-size: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.favouriteLeft__summary{
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.browseBtn{
+    padding: 13px 31px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+/* =============== favourite Css ========== */
