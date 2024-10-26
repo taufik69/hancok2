@@ -19,3 +19,33 @@ html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+/*  ============= Game css ============ */
+#Game{
+    padding: 90px 0;
+    background-color: black;
+}
+.Gamepart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.gamepartaheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.gmeparsubheader{
+    display: flex;
+}
+.gamepartaheader__title{
+    font-size: 40px;
+    color: white;
+}
+.gamepartrowcol__header{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+/*  ============= Game css ============ */
