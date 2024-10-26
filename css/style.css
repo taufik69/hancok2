@@ -19,3 +19,109 @@ html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+:root{
+    --bg_color:#121212;
+    --main_font_color:#fff;
+}
+/* ====================== video part =============== */
+#video_part{
+    padding: 90px 0;
+    background: var(--bg_color);
+}
+.videoHead{
+    max-width: 406px;
+    display: flex;
+    justify-content: center;
+
+}
+.videoHead__title{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--main_font_color);
+}
+.videoItem{
+    position: relative;
+    max-width: 427px;
+    height: 275px;
+    margin-top: 78px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.videoItem:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.videoItem__img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.videoItem:hover .videoItem__img{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+.videoItemDetais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+    position: absolute;
+    bottom: 23px;
+    right: 25px;
+    left: 25px;
+}
+.videoItemContent{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.videoItemContent__title{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--main_font_color);
+}
+.videoItemContentWraaper{
+    display: flex;
+    align-items: center;
+    column-gap: 240px;
+}
+.videoItemContent__sumary{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--main_font_color);
+}
+.videoItemContent__live{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--main_font_color);
+    position: relative;
+}
+.videoItemContent__live::before{
+    content: '';
+    position: absolute;
+    left: -9px;
+    bottom: 4px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #FF4655;
+    z-index: 10;
+}
