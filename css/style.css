@@ -19,3 +19,18 @@ html{
     scroll-behavior: smooth;
 }
 /*  ============= common css ============ */
+
+#headerPart{
+    padding: 10px 0;
+    background-color: black;
+    color: wheat;
+    font-size: 16px;
+}
+
+.headerPartWrapperRightSide__btn{
+    border: none;
+    background-color: palevioletred;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 40px;
+}
